@@ -20,6 +20,10 @@ class Solution {
         int dir=1;
         while(!bfsQ.empty()){
             int Qsize=bfsQ.size();
+
+
+
+            
             vector<int> lvl;
             for(int i=0;i<Qsize;i++){
                 Node* curr=bfsQ.front();
